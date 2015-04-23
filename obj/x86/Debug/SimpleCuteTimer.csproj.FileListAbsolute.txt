@@ -1,0 +1,22 @@
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\SimpleCuteTimer.exe.config
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\SimpleCuteTimer.exe
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\SimpleCuteTimer.pdb
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\Simple_Cute_Timer.about.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\Simple_Cute_Timer.Form1.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\Simple_Cute_Timer.helper.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\Simple_Cute_Timer.maxtimer.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Properties.Resources.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\SimpleCuteTimer.csproj.GenerateResource.Cache
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\SimpleCuteTimer.exe
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\SimpleCuteTimer.pdb
+C:\Users\hom\Desktop\SimpleCubeTimer\bin\Debug\SimpleCuteTimer.exe.config
+C:\Users\hom\Desktop\SimpleCubeTimer\bin\Debug\SimpleCuteTimer.exe
+C:\Users\hom\Desktop\SimpleCubeTimer\bin\Debug\SimpleCuteTimer.pdb
+C:\Users\hom\Desktop\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.about.resources
+C:\Users\hom\Desktop\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.Form1.resources
+C:\Users\hom\Desktop\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.helper.resources
+C:\Users\hom\Desktop\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.maxtimer.resources
+C:\Users\hom\Desktop\SimpleCubeTimer\obj\x86\Debug\MyTimer_Of_Cube.Properties.Resources.resources
+C:\Users\hom\Desktop\SimpleCubeTimer\obj\x86\Debug\SimpleCuteTimer.csproj.GenerateResource.Cache
+C:\Users\hom\Desktop\SimpleCubeTimer\obj\x86\Debug\SimpleCuteTimer.exe
+C:\Users\hom\Desktop\SimpleCubeTimer\obj\x86\Debug\SimpleCuteTimer.pdb

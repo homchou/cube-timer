@@ -1,0 +1,67 @@
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.pdb
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Form1.resources
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Properties.Resources.resources
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.exe
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.pdb
+E:\草稿\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.maxtimer.resources
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.exe
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.pdb
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.pdb
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Form1.resources
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.maxtimer.resources
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Properties.Resources.resources
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.helper.resources
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.exe
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.pdb
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe.config
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Form1.resources
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.helper.resources
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.maxtimer.resources
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Properties.Resources.resources
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\ResGen.read.1.tlog
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\ResGen.write.1.tlog
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe
+E:\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.pdb
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe.config
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.exe
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.pdb
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.pdb
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Form1.resources
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.helper.resources
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.maxtimer.resources
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Properties.Resources.resources
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\ResGen.read.1.tlog
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\ResGen.write.1.tlog
+E:\study\项目\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.about.resources
+E:\study\资料\121220MyTimer Of Cube\121220MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe.config
+E:\study\资料\121220MyTimer Of Cube\121220MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.exe
+E:\study\资料\121220MyTimer Of Cube\121220MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.pdb
+E:\study\资料\121220MyTimer Of Cube\121220MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe.config
+E:\study\资料\121220MyTimer Of Cube\121220MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.exe
+E:\study\资料\121220MyTimer Of Cube\121220MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.pdb
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe.config
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.exe
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\bin\Debug\MyTimer Of Cube.pdb
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.about.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Form1.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.helper.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.maxtimer.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer_Of_Cube.Properties.Resources.resources
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.csproj.GenerateResource.Cache
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.exe
+C:\Users\hom\Desktop\MyTimer Of Cube\MyTimer Of Cube\obj\x86\Debug\MyTimer Of Cube.pdb
