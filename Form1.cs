@@ -6,6 +6,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Threading;
 using System.Drawing;
+using MyTimer_Of_Cube.Code;
 
 namespace Simple_Cute_Timer
 {
@@ -15,6 +16,9 @@ namespace Simple_Cute_Timer
         public Form1()
         {
             InitializeComponent();
+
+            this.fillData();
+
             //开始线程
             Control.CheckForIllegalCrossThreadCalls = false;
             runlabe4 = new Thread(new ThreadStart(this.runlabel4));
@@ -187,12 +191,21 @@ namespace Simple_Cute_Timer
                 seconds.ForeColor = System.Drawing.Color.Green;
                 label1.ForeColor = System.Drawing.Color.Green;
                 label2.ForeColor = System.Drawing.Color.Green;
-
             }
+
+            //全屏
+            if (e.KeyCode == Keys.Escape)
+            {
+                storeData();
+                this.Hide();
+                maxtimer ma = new maxtimer();
+                ma.ShowDialog();
+            }
+
+
             //按下后停止计时
             if (isRun == true && k == 1)
             {
-
                 this.isRun = false;
                 k = 2;
 
@@ -207,28 +220,7 @@ namespace Simple_Cute_Timer
                 label8.Text = listBox1.Items.Count.ToString();
 
                 //显示平均成绩
-                label15.Text = avg();
-
-                //成绩保存到数据库
-                //try
-                //{
-                //    com = new SqlCommand("insert into 成绩表(成绩,打乱,日期) values('" + minutes.Text.Trim() + label5.Text.Trim() + seconds.Text.Trim() + label6.Text.Trim() + millimeters.Text.Trim() + "','" + eMove + "','" + DateTime.Now.ToLongDateString() + "')", conn);
-
-                //    //com = new SqlCommand("insert into 成绩表(成绩,日期) values('" + lbltimer.Text.Trim() + "','" + DateTime.Now.ToLongDateString() + "')", conn);
-                //    if (conn.State == ConnectionState.Closed)
-                //    {
-                //        conn.Open();
-                //    }
-                //    com.ExecuteNonQuery();
-                //    conn.Close();
-                //}
-                //catch (Exception ex)
-                //{
-                //    MessageBox.Show(ex.Message.ToString());
-                //}
-
-
-                //FilListBox();//listbox显示成绩
+                //label15.Text = avg();
 
             }
             if (k == 2)
@@ -245,13 +237,7 @@ namespace Simple_Cute_Timer
                 this.tozero();
 
             }
-            //全屏
-            if (e.KeyCode == Keys.Escape)
-            {
-                this.Hide();
-                maxtimer ma = new maxtimer();
-                ma.ShowDialog();
-            }
+            
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
@@ -286,6 +272,7 @@ namespace Simple_Cute_Timer
         #region//打开全屏计时
         private void label4_Click(object sender, EventArgs e)
         {
+            this.storeData();
             this.Hide();
             maxtimer ma = new maxtimer();
             ma.ShowDialog();
@@ -350,32 +337,25 @@ namespace Simple_Cute_Timer
         #region//忽略成绩
         private void button1_Click(object sender, EventArgs e)
         {
-
             int i = listBox1.SelectedIndex;
             if (listBox1.Items.Count > 0)
             {
                 listBox1.Items.Remove(listBox1.Items[i].ToString());
             }
-
             if (listBox1.Items.Count > 0)
             {
-
                 listBox1.SelectedIndex = 0;
-
             }
             label8.Text = listBox1.Items.Count.ToString();
             if (listBox1.Items.Count == 0)
             {
                 label15.Text = "00:00:00";
-
             }
             else
             {
                 //显示平均成绩
-                label15.Text = avg();
+                //label15.Text = avg();
             }
-
-
             listBox1.Focus();
         }
         #endregion
@@ -455,5 +435,32 @@ namespace Simple_Cute_Timer
             ab.ShowDialog();
         }
         #endregion
+
+
+        /// <summary>
+        /// 存储当前窗口值
+        /// </summary>
+        private void storeData()
+        {
+            StaticSpace.mm = this.minutes.Text;
+            StaticSpace.ss = this.seconds.Text;
+            StaticSpace.ff = this.millimeters.Text; 
+        }
+
+        /// <summary>
+        /// 填充存储的数据
+        /// </summary>
+        private void fillData()
+        {
+            this.minutes.Text = StaticSpace.mm;
+            this.seconds.Text = StaticSpace.ss;
+            this.millimeters.Text = StaticSpace.ff;
+
+            if (StaticSpace.mm != "00" || StaticSpace.ss != "00" || StaticSpace.ff != "00")
+            {
+                this.isRun = false;
+                this.k = 3;
+            }
+        }
     }
 }

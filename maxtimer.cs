@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
+using MyTimer_Of_Cube.Code;
 
 
 namespace Simple_Cute_Timer
@@ -30,9 +31,17 @@ namespace Simple_Cute_Timer
 
             //开始线程
             Control.CheckForIllegalCrossThreadCalls = false;
-            Thread runlabe3 = new Thread(new ThreadStart(this.runlabel3));
+            runlabe3 = new Thread(new ThreadStart(this.runlabel3));
             runlabe3.Start();//载入打乱字符串
         }
+
+        ~maxtimer()
+        {
+            //析构函数释放线程
+            runlabe3.Abort();
+        }
+
+        Thread runlabe3;
 
         //笔记本高度-40
         int bookHeight = 768 - 40;
@@ -57,7 +66,6 @@ namespace Simple_Cute_Timer
         //归零方法
         public void tozero()
         {
-
             indexMinutes = 0;
             indexSeconds = 0;
             indexMillimeters = 0;
@@ -77,7 +85,9 @@ namespace Simple_Cute_Timer
             runTime.Start();
         }
 
-        //计时部分方法
+        /// <summary>
+        /// 计时部分方法
+        /// </summary>
         public void runingTime()//object source,System.Timers.ElapsedEventArgs e)
         {
             isRun = true;
@@ -85,14 +95,12 @@ namespace Simple_Cute_Timer
             int bb = 0;//毫秒数累加，用于判断是否到了1秒
             while (isRun)
             {
-
                 aa = System.Environment.TickCount;//系统启动到当前时间的毫秒数
                 if (bb <= 999)
                 {
                     millimeters.Text = bb.ToString("000").Substring(0, 2);
 
                 }
-
                 if (bb >= 999)
                 {
                     bb = bb - 999;
@@ -114,8 +122,11 @@ namespace Simple_Cute_Timer
 
         }
 
-
-
+        /// <summary>
+        /// 窗体加载事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void maxtimer_Load(object sender, EventArgs e)
         {
             //全屏
@@ -129,16 +140,28 @@ namespace Simple_Cute_Timer
             label1.ForeColor = System.Drawing.Color.White;
             label2.ForeColor = System.Drawing.Color.White;
             label3.ForeColor = System.Drawing.Color.White;
+
+            fillData();
         }
 
+        /// <summary>
+        /// 点击退出全屏
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void label3_Click(object sender, EventArgs e)
         {
-            //退出全屏
+            storeData();
             this.Hide();
             Form1 form1 = new Form1();
             form1.ShowDialog();
         }
 
+        /// <summary>
+        /// 键盘按键按下
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void maxtimer_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space && isRun == false && k != 3)
@@ -148,67 +171,42 @@ namespace Simple_Cute_Timer
                 seconds.ForeColor = System.Drawing.Color.Green;
                 label1.ForeColor = System.Drawing.Color.Green;
                 label2.ForeColor = System.Drawing.Color.Green;
-
             }
-            if (isRun == true && k == 1)
-            {
 
-                this.isRun = false;
-                k = 2;
-                //try
-                //{
-                //    com = new SqlCommand("insert into 成绩表(成绩,打乱,日期) values('" + minutes.Text.Trim() + label5.Text.Trim() + seconds.Text.Trim() + label6.Text.Trim() + millimeters.Text.Trim() + "','" + eMove + "','" + DateTime.Now.ToLongDateString() + "')", conn);
-
-                //    //com = new SqlCommand("insert into 成绩表(成绩,日期) values('" + lbltimer.Text.Trim() + "','" + DateTime.Now.ToLongDateString() + "')", conn);
-                //    if (conn.State == ConnectionState.Closed)
-                //    {
-                //        conn.Open();
-                //    }
-                //    com.ExecuteNonQuery();
-                //    conn.Close();
-                //}
-                //catch (Exception ex)
-                //{
-                //    MessageBox.Show(ex.Message.ToString());
-                //}//成绩保存到数据库
-
-
-                //FilListBox();//listbox显示成绩
-
-            }
-            if (k == 2)
-            {
-                isRun = false;
-
-            }
-            if (k == 3)
-            {
-                k++;
-
-                //label7.Text = minutes.Text.Trim() + label5.Text.Trim() + seconds.Text.Trim() + label6.Text.Trim() + millimeters.Text.Trim();
-                this.tozero();
-
-            }
             if (e.KeyCode == Keys.Escape)
             {
+                storeData();
                 this.Hide();
                 Form1 form1 = new Form1();
                 form1.ShowDialog();
             }
 
-
-
+            if (isRun == true && k == 1)
+            {
+                this.isRun = false;
+                k = 2;
+            }
+            if (k == 2)
+            {
+                isRun = false;
+            }
+            if (k == 3)
+            {
+                k++;
+                this.tozero();
+            }
+            
         }
 
+        /// <summary>
+        /// 键盘按键按起
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void maxtimer_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
             {
-                //this.millimeters.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-                //this.seconds.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-                //this.minutes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-                //this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-                //this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
                 minutes.ForeColor = System.Drawing.Color.White;
                 seconds.ForeColor = System.Drawing.Color.White;
                 millimeters.ForeColor = System.Drawing.Color.White;
@@ -217,16 +215,12 @@ namespace Simple_Cute_Timer
                 label3.ForeColor = System.Drawing.Color.White;
                 if (this.isRun == false && k == 0)
                 {
-
                     starttimer();
-
                     k = 1;
                 }
                 if (k == 2)
                 {
                     k++;
-
-
                 }
                 if (k == 4)
                 {
@@ -236,7 +230,40 @@ namespace Simple_Cute_Timer
             }
         }
 
+        /// <summary>
+        /// 窗体显示事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void maxtimer_Shown(object sender, EventArgs e)
+        {
+            
+        }
 
+        /// <summary>
+        /// 存储当前窗口值
+        /// </summary>
+        private void storeData()
+        {
+            StaticSpace.mm = this.minutes.Text;
+            StaticSpace.ss = this.seconds.Text;
+            StaticSpace.ff = this.millimeters.Text;
+        }
+
+        /// <summary>
+        /// 填充存储的数据
+        /// </summary>
+        private void fillData()
+        {
+            this.minutes.Text = StaticSpace.mm;
+            this.seconds.Text = StaticSpace.ss;
+            this.millimeters.Text = StaticSpace.ff;
+            if (StaticSpace.mm != "00" || StaticSpace.ss != "00" || StaticSpace.ff != "00")
+            {
+                this.isRun = false;
+                this.k = 3;
+            }
+        }
 
 
 

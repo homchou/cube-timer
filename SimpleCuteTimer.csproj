@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="Code\calc.cs" />
     <Compile Include="Code\createmove.cs" />
+    <Compile Include="Code\StaticSpace.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

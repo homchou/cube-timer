@@ -38,7 +38,6 @@
             // 
             // millimeters
             // 
-            
             this.millimeters.AutoSize = true;
             this.millimeters.Font = new System.Drawing.Font("微软雅黑", 180F);
             this.millimeters.ForeColor = System.Drawing.Color.White;
@@ -118,6 +117,7 @@
             this.Name = "maxtimer";
             this.Text = "maxtimer";
             this.Load += new System.EventHandler(this.maxtimer_Load);
+            this.Shown += new System.EventHandler(this.maxtimer_Shown);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.maxtimer_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.maxtimer_KeyUp);
             this.ResumeLayout(false);
