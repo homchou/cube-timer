@@ -7,4 +7,4 @@
 
 
 ## 下载
-[点击下载](https://github.com/homchou/SimpleCuteTimer/blob/master/bin/Debug/SimpleCuteTimer.exe?raw=true)
+* [点击下载](https://github.com/homchou/SimpleCuteTimer/blob/master/bin/Debug/SimpleCuteTimer.exe?raw=true)
