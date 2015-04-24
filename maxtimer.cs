@@ -32,6 +32,7 @@ namespace Simple_Cute_Timer
             //开始线程
             Control.CheckForIllegalCrossThreadCalls = false;
             runlabe3 = new Thread(new ThreadStart(this.runlabel3));
+            runlabe3.IsBackground = true;
             runlabe3.Start();//载入打乱字符串
         }
 

@@ -22,6 +22,7 @@ namespace Simple_Cute_Timer
             //开始线程
             Control.CheckForIllegalCrossThreadCalls = false;
             runlabe4 = new Thread(new ThreadStart(this.runlabel4));
+            runlabe4.IsBackground = true;
             runlabe4.Start();//载入打乱字符串
         }
 
@@ -57,7 +58,7 @@ namespace Simple_Cute_Timer
         ~Form1()
         {
             //析构函数释放线程
-            runlabe4.Abort();
+            //runlabe4.Abort();
         }
 
         #region//显示打乱公式
