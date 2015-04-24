@@ -1,9 +1,9 @@
 # SimpleCuteTimer
 
 ![Timer](https://raw.githubusercontent.com/homchou/SimpleCuteTimer/master/D2.ico)  
--简单魔方计时器 .net winform实现  
--包含自动生成25位打乱公式和记录保存  
--支持计时器全屏，方便比赛使用  
+[1]简单魔方计时器 .net winform实现  
+[2]包含自动生成25位打乱公式和记录保存  
+[3]支持计时器全屏，方便比赛使用  
 
 
 ## 下载
