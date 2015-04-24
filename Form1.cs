@@ -11,14 +11,17 @@ namespace Simple_Cute_Timer
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
             //开始线程
             Control.CheckForIllegalCrossThreadCalls = false;
-            Thread runlabe4 = new Thread(new ThreadStart(this.runlabel4));
+            runlabe4 = new Thread(new ThreadStart(this.runlabel4));
             runlabe4.Start();//载入打乱字符串
         }
+
+        Thread runlabe4;
 
         //设置移动变量
         bool formMove = false;
@@ -45,6 +48,12 @@ namespace Simple_Cute_Timer
 
             //显示打乱公式
             cmove();
+        }
+
+        ~Form1()
+        {
+            //析构函数释放线程
+            runlabe4.Abort();
         }
 
         #region//显示打乱公式
