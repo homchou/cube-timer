@@ -44,12 +44,9 @@ namespace Simple_Cute_Timer
         createmove cm;
         private void Form1_Load(object sender, EventArgs e)
         {
-            //button1.Visible = false;
-            //button2.Visible = false;
-            //button3.Visible = false;
+            
             button2.Enabled = false;
             button3.Enabled = false;
-            //label1.Focus();
 
             //显示打乱公式
             cmove();
@@ -58,7 +55,7 @@ namespace Simple_Cute_Timer
         ~Form1()
         {
             //析构函数释放线程
-            //runlabe4.Abort();
+            runlabe4.Abort();
         }
 
         #region//显示打乱公式
@@ -462,6 +459,16 @@ namespace Simple_Cute_Timer
                 this.isRun = false;
                 this.k = 3;
             }
+        }
+
+        /// <summary>
+        /// 关闭窗体时事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill(); 
         }
     }
 }

@@ -266,6 +266,16 @@ namespace Simple_Cute_Timer
             }
         }
 
+        /// <summary>
+        /// 窗体关闭时事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void maxtimer_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill(); 
+        }
+
 
 
     }

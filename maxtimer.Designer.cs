@@ -116,6 +116,7 @@
             this.Controls.Add(this.label1);
             this.Name = "maxtimer";
             this.Text = "maxtimer";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.maxtimer_FormClosing);
             this.Load += new System.EventHandler(this.maxtimer_Load);
             this.Shown += new System.EventHandler(this.maxtimer_Shown);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.maxtimer_KeyDown);

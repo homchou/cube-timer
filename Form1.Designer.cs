@@ -207,14 +207,14 @@
             // 使用说明ToolStripMenuItem
             // 
             this.使用说明ToolStripMenuItem.Name = "使用说明ToolStripMenuItem";
-            this.使用说明ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.使用说明ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.使用说明ToolStripMenuItem.Text = "使用说明";
             this.使用说明ToolStripMenuItem.Click += new System.EventHandler(this.使用说明ToolStripMenuItem_Click);
             // 
             // 关于软件ToolStripMenuItem
             // 
             this.关于软件ToolStripMenuItem.Name = "关于软件ToolStripMenuItem";
-            this.关于软件ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.关于软件ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.关于软件ToolStripMenuItem.Text = "关于软件";
             this.关于软件ToolStripMenuItem.Click += new System.EventHandler(this.关于软件ToolStripMenuItem_Click);
             // 
@@ -411,6 +411,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MyTimer Of Cube by:Hom_Chou";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
