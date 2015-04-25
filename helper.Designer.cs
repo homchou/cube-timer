@@ -50,7 +50,7 @@
             this.MaximizeBox = false;
             this.Name = "helper";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "使用说明   by chouhom";
+            this.Text = "使用说明";
             this.Load += new System.EventHandler(this.helper_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

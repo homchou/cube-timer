@@ -27,7 +27,7 @@ D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.about.re
 D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.Form1.resources
 D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.helper.resources
 D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.maxtimer.resources
-D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\MyTimer_Of_Cube.Properties.Resources.resources
+D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\Simple_Cute_Timer.Properties.Resources.resources
 D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\SimpleCuteTimer.csproj.GenerateResource.Cache
 D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\SimpleCuteTimer.exe
 D:\workspace\git\github\SimpleCubeTimer\obj\x86\Debug\SimpleCuteTimer.pdb

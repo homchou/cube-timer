@@ -8,7 +8,7 @@
     <ProjectGuid>{6AB3ADF9-C1F7-43C0-AC2C-CA9EC8D86552}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyTimer_Of_Cube</RootNamespace>
+    <RootNamespace>Simple_Cute_Timer</RootNamespace>
     <AssemblyName>SimpleCuteTimer</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
