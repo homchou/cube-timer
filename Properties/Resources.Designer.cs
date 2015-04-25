@@ -8,7 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MyTimer_Of_Cube.Properties {
+namespace Simple_Cute_Timer.Properties
+{
     using System;
     
     

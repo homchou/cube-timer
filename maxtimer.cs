@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
-using MyTimer_Of_Cube.Code;
+using Simple_Cute_Timer.Code;
 
 
 namespace Simple_Cute_Timer
