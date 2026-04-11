@@ -1,4 +1,4 @@
-# SimpleCuteTimer
+# Simple Cube Timer
 
 ![Timer](https://raw.githubusercontent.com/homchou/SimpleCuteTimer/master/D2.ico)  
 * 简单魔方计时器 .net winform实现（之前在学校练习版本）
